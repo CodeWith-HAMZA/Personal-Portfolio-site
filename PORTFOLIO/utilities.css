@@ -1,0 +1,45 @@
+.flexRow {
+    display: flex;
+}
+
+.mA {
+    margin: auto;
+}
+
+
+
+
+
+.mB2 {
+    margin-bottom: 2rem;
+}
+
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.justifySpaceAround {
+    justify-content: space-around;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.bld500 {
+    font-weight: 500;
+}
+
+.cP {
+    cursor: pointer;
+}

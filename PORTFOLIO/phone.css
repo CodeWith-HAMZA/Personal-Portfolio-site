@@ -1,0 +1,56 @@
+@media (max-width: 578px) {
+    section .wrapper {
+
+        padding: 0.6rem 0;
+    }
+
+    section .wrapper .home-content {
+        font-size: 1.6rem;
+    }
+
+    section .wrapper .home-content .text2 {
+        font-size: 3.4rem;
+    }
+
+    section .wrapper .home-content .text3 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .landingBtn {
+        margin-top: 1rem;
+        height: 3.6rem;
+    }
+
+
+    #mainEmailInput {
+        height: 3.6rem;
+        width: 19.8rem;
+    }
+
+    /* resizing main Logo */
+    .navBar .max-width .logo a {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 712px) {
+
+    #About .aboutWrapper .aboutImg {
+        max-width: 22.4rem;
+        height: 18rem;
+    }
+
+    .flexAboutContainer {
+        height: 46rem;
+    }
+
+    #About .aboutContent {
+        padding: 1.4rem 0;
+    }
+
+    #About .aboutWrapper {
+        /* height: 64rem; */
+        padding: 3.6rem 1.2rem;
+    }
+}

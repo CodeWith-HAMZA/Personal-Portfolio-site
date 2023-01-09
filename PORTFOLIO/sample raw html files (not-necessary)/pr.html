@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: rgb(244, 244, 244);  
+        }
+        body{
+            background: rgb(0, 0, 0);
+        }
+
+        nav{
+            position: relative;
+            z-index: 1;
+            max-width: 90rem;
+            height: 4rem;
+            margin: 0 auto;
+            z-index: 1;
+        }   
+
+        .section{
+            background: rgba(255, 0, 0, 0.461);
+
+        }
+
+        ul{
+            width: 100%;
+            height: 100%;
+        }
+
+        nav ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 2rem;
+        }
+
+        nav::before{
+            content: '';
+            position: absolute;
+            background: url('portfolio-images/images/banner.jpg') no-repeat center center/cover;
+            top: 0; left: 0;
+            height: 40rem; width: 100%;
+            margin: 0 auto;
+            z-index: -1;
+            opacity: 0.1;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="section">
+
+        <nav>
+
+            <ul>
+
+                <li>Home</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>Contact</li>
+         </ul>
+        </nav>
+    </div>
+
+    
+
+
+</body>
+</html>
